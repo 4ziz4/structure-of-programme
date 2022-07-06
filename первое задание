@@ -1,0 +1,20 @@
+class Main {
+  public static void main(String[] args) {
+    java.util.Scanner myScanner = new java.util.Scanner(
+    System.in
+    );
+    
+    System.out.println("Введите первое число");
+    int value1 = myScanner.nextInt();
+    
+    System.out.println("Введите второе число");
+    int value2 = myScanner.nextInt();
+    
+    int result = sumMethod(value1, value2);
+    System.out.println("Сумма чисел равна" + result);
+  }
+    
+    static int sumMethod(int val1, int val2) {
+      return val1 + val2;  }
+}
+
